@@ -11,5 +11,5 @@ public class Calculadora {
 		Calculadora calc = new Calculadora();
 		System.out.println("--- INICIO DE LA CALCULADORA ---");
 		System.out.println("Suma: " + calc.sumar(10, 5));
-	}
+	} 
 }
