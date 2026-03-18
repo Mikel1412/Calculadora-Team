@@ -10,6 +10,10 @@ public class Calculadora {
 	public double multiplicar(double a, double b) {
 		return a * b;
 	} 
+	
+	public double potencia(double base, double exponente) {
+		return Math.pow(base, exponente);
+	}
 
 	public static void main(String[] args) {
 		Calculadora calc = new Calculadora();
